@@ -13,7 +13,8 @@ body{
     border-bottom-color: #dddddd;
     border-bottom: 2px;
     border-style: solid;
-    position: relative;
+    position: absolute;
+    top:0;
     right: auto;
     width: 100%;   
     height:100px;
@@ -22,6 +23,7 @@ body{
 .top-block{
     width: 70%;
     position: relative;
+    top:0;
     margin-left: auto;
     margin-right:auto;
     max-width: 960px;
@@ -53,7 +55,7 @@ a{
 
 .content-block{
     position: relative;
-    top:50px;
+    top:100px;
     margin-left:auto;
     margin-right: auto;
     max-width: 956px;
@@ -215,7 +217,7 @@ input[type=submit] {
     }
     .content-block{
         position: relative;
-        top:30px;
+        top:100px;
         margin-left:2.5%;
         max-width: 720px;
         width: 95%;
@@ -273,7 +275,7 @@ input[type=submit] {
     }
     .content-block{
         position: relative;
-        top:30px;
+        top:100px;
         margin-left:auto;
         margin-right: auto;
         max-width: 720px;
@@ -314,13 +316,15 @@ input[type=submit] {
     }
     .content-block{
         width:95%;
+        top:160px;
     }
-    .top-bar{
-        width: 100%;  
-        margin:0;        
-        position: static;
-        height:160px;
-        padding:0;
+    .top-bar {
+        width: 100%;
+        margin: 0;
+        position: absolute;
+        top: 0;
+        height: 160px;
+        padding: 0;
     }
     .top-block{
         width: 100%;
