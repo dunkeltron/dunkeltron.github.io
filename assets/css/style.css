@@ -5,14 +5,13 @@ body{
     font-family:  'Open Sans', sans-serif;
     color: #777777;
     background-color: #ffffff;
-    border-color: #dddddd;
 }
 
 .top-bar{
-    background-color: #ffffff;
-    border-bottom-color: #dddddd;
+    background-color: #ffffff;    
+    border-bottom-color: #dbdbdb !important;
     border-bottom: 2px;
-    border-style: none;
+    border-style: solid;
     position: absolute;
     top:0;
     right: auto;
@@ -61,12 +60,13 @@ a{
     top:110px;
     margin-left:auto;
     margin-right: auto;
+    margin-bottom: 1rem;
     max-width: 956px;
     width: 70%;
     background-color: #ffffff;
-    padding-bottom: 3rem;
     border-style: none;
     border-radius: 0.5rem;
+    box-shadow: 0px 0px 7px 0px
 }
 h1{
     padding: 40px 0px ;
@@ -90,7 +90,7 @@ h1{
     height: 25px;
     line-height: 25px;
     font-size: 12px;
-    background-color: #666666;
+    background-color: #cccccc;
     text-align: center;
     color: white;
 }
@@ -285,6 +285,7 @@ input[type=submit] {
         padding-bottom: 0px;
         margin-bottom: 60px;
         border: 2px #dddddd solid;
+        box-shadow: none;
     }
     .project-image{
         width:100%;
