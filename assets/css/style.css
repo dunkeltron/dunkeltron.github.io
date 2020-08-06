@@ -66,7 +66,7 @@ a{
     background-color: #ffffff;
     border-style: none;
     border-radius: 0.5rem;
-    box-shadow: 0px 0px 7px 0px
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0, 0, 0, 0.37);
 }
 h1{
     padding: 40px 0px ;
